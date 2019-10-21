@@ -82,7 +82,7 @@ public class AudioVisualizer3D extends Application implements AudioSpectrumListe
 
     private AudioSpectrumListener audioSpectrumListener;
 
-    private static final String AUDIO_URI = System.getProperty("demo.audio.url","https://file-examples.com/wp-content/uploads/2017/04/file_example_MP4_480_1_5MG.mp4");
+    private static final String AUDIO_URI = System.getProperty("demo.audio.url","http://soundimage.org/wp-content/uploads/2017/06/Bonkers-for-Arcades.mp3");
     private static MediaPlayer audioMediaPlayer;
     private static final boolean PLAY_AUDIO = Boolean.parseBoolean(System.getProperty("demo.play.audio","true"));
 
